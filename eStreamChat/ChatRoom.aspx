@@ -9,6 +9,7 @@
 </head>
 <body>
     <script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.js"></script>
     <script src="http://code.jquery.com/ui/1.8.23/jquery-ui.min.js" type="text/javascript"></script>
     <script src="Scripts/jquery.jqote2.js" type="text/javascript"></script>
     <script src="Scripts/jquery.blink.js" type="text/javascript"></script>
