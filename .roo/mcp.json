@@ -14,10 +14,9 @@
         "/Users/amal/work/eStreamChat/graphdb.sqlite:/tmp/graphdb.sqlite",
         "-v",
         "/Users/amal/work/eStreamChat/eStreamChat.deps.json:/tmp/eStreamChat.deps.json",
-        "ghcr.io/amalabey/dotnetupgrader:1.2.0"
+        "ghcr.io/amalabey/dotnetupgrader:1.2.1"
       ],
       "alwaysAllow": [
-        "SetTypeMigrated",
         "GetMigrationPlan",
         "GetDependencies"
       ]
