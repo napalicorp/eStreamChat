@@ -8,13 +8,18 @@
         "--rm",
         "-e",
         "DB_NAME=/tmp/graphdb.sqlite",
+        "-e",
+        "DEP_GRAPH_FILE_PATH=/tmp/eStreamChat.deps.json",
         "-v",
         "/Users/amal/work/eStreamChat/graphdb.sqlite:/tmp/graphdb.sqlite",
-        "ghcr.io/amalabey/dotnetupgrader:1.1.2"
+        "-v",
+        "/Users/amal/work/eStreamChat/eStreamChat.deps.json:/tmp/eStreamChat.deps.json",
+        "ghcr.io/amalabey/dotnetupgrader:1.2.0"
       ],
       "alwaysAllow": [
-        "GetDependencies",
-        "SetTypeMigrated"
+        "SetTypeMigrated",
+        "GetMigrationPlan",
+        "GetDependencies"
       ]
     }
   }
