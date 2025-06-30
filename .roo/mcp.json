@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "MigrationTracker": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "DB_NAME=/tmp/graphdb.sqlite",
+        "-v",
+        "/Users/amal/work/eStreamChat/graphdb.sqlite:/tmp/graphdb.sqlite",
+        "ghcr.io/amalabey/dotnetupgrader:1.0.1"
+      ],
+      "alwaysAllow": [
+        "GetDependencies",
+        "GetNextMigrationCandidate",
+        "MarkTypeAsMigrated"
+      ]
+    }
+  }
+}

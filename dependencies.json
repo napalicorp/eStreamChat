@@ -1,0 +1,1024 @@
+[
+  {
+    "name": "ChatRequest",
+    "type": "class",
+    "filePath": "eStreamChat.Interfaces/ChatRequest.cs",
+    "startLine": 20,
+    "endLine": 36
+  },
+  {
+    "name": "Room",
+    "type": "class",
+    "filePath": "eStreamChat.Interfaces/Room.cs",
+    "startLine": 18,
+    "endLine": 26
+  },
+  {
+    "name": "User",
+    "type": "class",
+    "filePath": "eStreamChat.Interfaces/User.cs",
+    "startLine": 18,
+    "endLine": 25
+  },
+  {
+    "name": "ChatUserProvider",
+    "type": "class",
+    "filePath": "eStreamChat.SampleProviders/ChatUserProvider.cs",
+    "startLine": 26,
+    "endLine": 79
+  },
+  {
+    "name": "MessageFormatOptions",
+    "type": "class",
+    "filePath": "eStreamChat.Interfaces/Message.cs",
+    "startLine": 35,
+    "endLine": 43
+  },
+  {
+    "name": "Message",
+    "type": "class",
+    "filePath": "eStreamChat.Interfaces/Message.cs",
+    "startLine": 45,
+    "endLine": 53
+  },
+  {
+    "name": "Broadcast",
+    "type": "class",
+    "filePath": "eStreamChat.Interfaces/Message.cs",
+    "startLine": 55,
+    "endLine": 60
+  },
+  {
+    "name": "ChatRoomProvider",
+    "type": "class",
+    "filePath": "eStreamChat.SampleProviders/ChatRoomProvider.cs",
+    "startLine": 28,
+    "endLine": 93
+  },
+  {
+    "name": "MessengerCommand",
+    "type": "class",
+    "filePath": "eStreamChat/MessengerCommand.ashx.cs",
+    "startLine": 25,
+    "endLine": 140
+  },
+  {
+    "name": "ChatRoomPage",
+    "type": "class",
+    "filePath": "eStreamChat/ChatRoom.aspx.cs",
+    "startLine": 21,
+    "endLine": 34
+  },
+  {
+    "name": "Global",
+    "type": "class",
+    "filePath": "eStreamChat/Global.asax.cs",
+    "startLine": 28,
+    "endLine": 85
+  },
+  {
+    "name": "Thumbnail",
+    "type": "class",
+    "filePath": "eStreamChat/Thumbnail.ashx.cs",
+    "startLine": 10,
+    "endLine": 84
+  },
+  {
+    "name": "ChatRoomPage",
+    "type": "class",
+    "filePath": "eStreamChat/ChatRoom.aspx.designer.cs",
+    "startLine": 13,
+    "endLine": 23
+  },
+  {
+    "name": "<function>",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 27,
+    "endLine": 156
+  },
+  {
+    "name": "addColors",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 149,
+    "endLine": 151
+  },
+  {
+    "name": "buildPicker",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 38,
+    "endLine": 58
+  },
+  {
+    "name": "bind(\"change\") callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 50,
+    "endLine": 53
+  },
+  {
+    "name": "buildSelector",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 60,
+    "endLine": 80
+  },
+  {
+    "name": "$.each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 64,
+    "endLine": 76
+  },
+  {
+    "name": "swatch.bind(\"click\") callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 67,
+    "endLine": 67
+  },
+  {
+    "name": "swatch.bind(\"mouseout\") callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 71,
+    "endLine": 73
+  },
+  {
+    "name": "swatch.bind(\"mouseover\") callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 68,
+    "endLine": 70
+  },
+  {
+    "name": "changeColor",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 113,
+    "endLine": 121
+  },
+  {
+    "name": "checkMouse",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 82,
+    "endLine": 88
+  },
+  {
+    "name": "colorPicker",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 28,
+    "endLine": 33
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 30,
+    "endLine": 32
+  },
+  {
+    "name": "hideSelector",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 89,
+    "endLine": 95
+  },
+  {
+    "name": "showSelector",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 96,
+    "endLine": 108
+  },
+  {
+    "name": "toggleSelector",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 109,
+    "endLine": 112
+  },
+  {
+    "name": "toHex",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.colorPicker.js",
+    "startLine": 123,
+    "endLine": 148
+  },
+  {
+    "name": "setTimeout() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.ajaxfileupload.js",
+    "startLine": 131,
+    "endLine": 134
+  },
+  {
+    "name": "setTimeout() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.ajaxfileupload.js",
+    "startLine": 117,
+    "endLine": 126
+  },
+  {
+    "name": "<function>",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.blink.js",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "name": "blink",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.blink.js",
+    "startLine": 4,
+    "endLine": 16
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.blink.js",
+    "startLine": 8,
+    "endLine": 15
+  },
+  {
+    "name": "setInterval() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.blink.js",
+    "startLine": 11,
+    "endLine": 13
+  },
+  {
+    "name": "stopBlink",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.blink.js",
+    "startLine": 17,
+    "endLine": 23
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.blink.js",
+    "startLine": 18,
+    "endLine": 22
+  },
+  {
+    "name": "updateLayout",
+    "type": "function",
+    "filePath": "eStreamChat/App_Themes/Paper/layout.js",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "name": "updateLayout",
+    "type": "function",
+    "filePath": "eStreamChat/App_Themes/Grey/layout.js",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "name": "updateLayout",
+    "type": "function",
+    "filePath": "eStreamChat/App_Themes/Blue/layout.js",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "name": "escape",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.emoticon.js",
+    "startLine": 270,
+    "endLine": 281
+  },
+  {
+    "name": "emoticon",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.emoticon.js",
+    "startLine": 283,
+    "endLine": 295
+  },
+  {
+    "name": "$() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 28,
+    "endLine": 212
+  },
+  {
+    "name": "load() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 38,
+    "endLine": 211
+  },
+  {
+    "name": "bind('click') callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 120,
+    "endLine": 124
+  },
+  {
+    "name": "bind('click') callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 70,
+    "endLine": 77
+  },
+  {
+    "name": "bind('click') callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 79,
+    "endLine": 107
+  },
+  {
+    "name": "click() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 57,
+    "endLine": 59
+  },
+  {
+    "name": "click() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 61,
+    "endLine": 68
+  },
+  {
+    "name": "click() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 170,
+    "endLine": 173
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 156,
+    "endLine": 156
+  },
+  {
+    "name": "click() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 156,
+    "endLine": 156
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 157,
+    "endLine": 160
+  },
+  {
+    "name": "blur() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 158,
+    "endLine": 158
+  },
+  {
+    "name": "change() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 159,
+    "endLine": 159
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 161,
+    "endLine": 161
+  },
+  {
+    "name": "mousedown() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 161,
+    "endLine": 161
+  },
+  {
+    "name": "keypress() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 176,
+    "endLine": 182
+  },
+  {
+    "name": "live(\"click\") callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 48,
+    "endLine": 51
+  },
+  {
+    "name": "resize() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 165,
+    "endLine": 167
+  },
+  {
+    "name": "focusMessageField",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 214,
+    "endLine": 219
+  },
+  {
+    "name": "playSound",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 221,
+    "endLine": 228
+  },
+  {
+    "name": "getPrivateTabIndex",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 230,
+    "endLine": 233
+  },
+  {
+    "name": "joinChatRoomSuccess",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 235,
+    "endLine": 312
+  },
+  {
+    "name": "bind('beforeunload') callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 264,
+    "endLine": 266
+  },
+  {
+    "name": "bind('unload') callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 267,
+    "endLine": 278
+  },
+  {
+    "name": "broadcastVideo",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 314,
+    "endLine": 412
+  },
+  {
+    "name": "receiveVideo",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 414,
+    "endLine": 447
+  },
+  {
+    "name": "closeVideoReceiver",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 449,
+    "endLine": 460
+  },
+  {
+    "name": "updateOnlineUsers",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 462,
+    "endLine": 558
+  },
+  {
+    "name": "contextMenu() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 488,
+    "endLine": 543
+  },
+  {
+    "name": "contextMenu() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 544,
+    "endLine": 557
+  },
+  {
+    "name": "startEventsTimer",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 560,
+    "endLine": 563
+  },
+  {
+    "name": "stopEventsTimer",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 565,
+    "endLine": 567
+  },
+  {
+    "name": "getEvents",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 569,
+    "endLine": 582
+  },
+  {
+    "name": "getEventsSuccess",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 584,
+    "endLine": 675
+  },
+  {
+    "name": "closeChat",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 677,
+    "endLine": 680
+  },
+  {
+    "name": "disableInterface",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 682,
+    "endLine": 685
+  },
+  {
+    "name": "outputSystemMessage",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 687,
+    "endLine": 694
+  },
+  {
+    "name": "isPrivateMessage",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 696,
+    "endLine": 698
+  },
+  {
+    "name": "isPanelActive",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 700,
+    "endLine": 702
+  },
+  {
+    "name": "formatOptionsToString",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 704,
+    "endLine": 722
+  },
+  {
+    "name": "outputUserMessage",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 724,
+    "endLine": 771
+  },
+  {
+    "name": "scrollToBottom",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 773,
+    "endLine": 775
+  },
+  {
+    "name": "OnWebcamClick",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 777,
+    "endLine": 779
+  },
+  {
+    "name": "blinkPanelTab",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 781,
+    "endLine": 783
+  },
+  {
+    "name": "sendMessage",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 785,
+    "endLine": 834
+  },
+  {
+    "name": "privateChat",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 836,
+    "endLine": 842
+  },
+  {
+    "name": "getTargetUserId",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 844,
+    "endLine": 855
+  },
+  {
+    "name": "createPrivateChatTab",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 857,
+    "endLine": 863
+  },
+  {
+    "name": "getPanelForMessage",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 865,
+    "endLine": 881
+  },
+  {
+    "name": "getPanelByUserId",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 883,
+    "endLine": 888
+  },
+  {
+    "name": "setCursorPosition",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 890,
+    "endLine": 903
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 891,
+    "endLine": 901
+  },
+  {
+    "name": "alert",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 905,
+    "endLine": 909
+  },
+  {
+    "name": "urlParam",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 910,
+    "endLine": 916
+  },
+  {
+    "name": "debug",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 917,
+    "endLine": 932
+  },
+  {
+    "name": "htmlEncode",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 933,
+    "endLine": 933
+  },
+  {
+    "name": "htmlDecode",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 934,
+    "endLine": 934
+  },
+  {
+    "name": "WebcamDetected",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/eStreamChat.js",
+    "startLine": 938,
+    "endLine": 944
+  },
+  {
+    "name": "<function>",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 15,
+    "endLine": 249
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 27,
+    "endLine": 142
+  },
+  {
+    "name": "bind('contextmenu') callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 140,
+    "endLine": 140
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 133,
+    "endLine": 133
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 135,
+    "endLine": 135
+  },
+  {
+    "name": "bind('selectstart.disableTextSelect') callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 135,
+    "endLine": 135
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 137,
+    "endLine": 137
+  },
+  {
+    "name": "bind('mousedown.disableTextSelect') callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 137,
+    "endLine": 137
+  },
+  {
+    "name": "mousedown() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 33,
+    "endLine": 129
+  },
+  {
+    "name": "mouseup() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 36,
+    "endLine": 128
+  },
+  {
+    "name": "click() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 112,
+    "endLine": 117
+  },
+  {
+    "name": "keypress() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 83,
+    "endLine": 108
+  },
+  {
+    "name": "mouseout() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 78,
+    "endLine": 80
+  },
+  {
+    "name": "mouseover() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 75,
+    "endLine": 78
+  },
+  {
+    "name": "setTimeout() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 120,
+    "endLine": 126
+  },
+  {
+    "name": "click() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 121,
+    "endLine": 125
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 241,
+    "endLine": 244
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 224,
+    "endLine": 226
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 153,
+    "endLine": 161
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 172,
+    "endLine": 180
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 232,
+    "endLine": 234
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 191,
+    "endLine": 199
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.contextMenu.mod.js",
+    "startLine": 210,
+    "endLine": 218
+  },
+  {
+    "name": "<function>",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.jqote2.js",
+    "startLine": 12,
+    "endLine": 118
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.jqote2.js",
+    "startLine": 26,
+    "endLine": 31
+  },
+  {
+    "name": "$.map() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.jqote2.js",
+    "startLine": 71,
+    "endLine": 71
+  },
+  {
+    "name": "$.map() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.jqote2.js",
+    "startLine": 77,
+    "endLine": 77
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.jqote2.js",
+    "startLine": 39,
+    "endLine": 41
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.jqote2.js",
+    "startLine": 47,
+    "endLine": 49
+  },
+  {
+    "name": "each() callback",
+    "type": "function",
+    "filePath": "eStreamChat/Scripts/jquery.jqote2.js",
+    "startLine": 55,
+    "endLine": 57
+  },
+  {
+    "name": "Settings",
+    "type": "class",
+    "filePath": "eStreamChat/Properties/Settings.Designer.cs",
+    "startLine": 14,
+    "endLine": 79
+  },
+  {
+    "name": "SendFile",
+    "type": "class",
+    "filePath": "eStreamChat/SendFile.ashx.cs",
+    "startLine": 26,
+    "endLine": 159
+  },
+  {
+    "name": "FlashResource",
+    "type": "class",
+    "filePath": "eStreamChat/FlashResource.ashx.cs",
+    "startLine": 25,
+    "endLine": 71
+  },
+  {
+    "name": "ChatEngine",
+    "type": "class",
+    "filePath": "eStreamChat/ChatEngine.svc.cs",
+    "startLine": 31,
+    "endLine": 491
+  },
+  {
+    "name": "EventsResult",
+    "type": "class",
+    "filePath": "eStreamChat/ChatEngine.svc.cs",
+    "startLine": 452,
+    "endLine": 459
+  },
+  {
+    "name": "JoinChatRoomResult",
+    "type": "class",
+    "filePath": "eStreamChat/ChatEngine.svc.cs",
+    "startLine": 465,
+    "endLine": 479
+  },
+  {
+    "name": "SendMessageResult",
+    "type": "class",
+    "filePath": "eStreamChat/ChatEngine.svc.cs",
+    "startLine": 485,
+    "endLine": 488
+  },
+  {
+    "name": "MemoryChatRoomStorage",
+    "type": "class",
+    "filePath": "eStreamChat/Classes/MemoryChatRoomStorage.cs",
+    "startLine": 23,
+    "endLine": 293
+  },
+  {
+    "name": "MemoryCacheProvider",
+    "type": "class",
+    "filePath": "eStreamChat/Classes/MemoryCacheProvider.cs",
+    "startLine": 22,
+    "endLine": 43
+  },
+  {
+    "name": "ChatSettings",
+    "type": "class",
+    "filePath": "eStreamChat/Classes/ChatSettings.cs",
+    "startLine": 21,
+    "endLine": 51
+  },
+  {
+    "name": "CleanTimedOutUsers",
+    "type": "class",
+    "filePath": "eStreamChat/Classes/Timers.cs",
+    "startLine": 23,
+    "endLine": 92
+  },
+  {
+    "name": "RemoteAuthUserProvider",
+    "type": "class",
+    "filePath": "eStreamChat/Classes/RemoteAuthUserProvider.cs",
+    "startLine": 29,
+    "endLine": 147
+  },
+  {
+    "name": "FileLogger",
+    "type": "class",
+    "filePath": "eStreamChat/Classes/Logger.cs",
+    "startLine": 21,
+    "endLine": 31
+  },
+  {
+    "name": "MemoryMessengerPresenceProvider",
+    "type": "class",
+    "filePath": "eStreamChat/Classes/MemoryMessengerPresenceProvider.cs",
+    "startLine": 24,
+    "endLine": 90
+  },
+  {
+    "name": "Miscellaneous",
+    "type": "class",
+    "filePath": "eStreamChat/Classes/Miscellaneous.cs",
+    "startLine": 23,
+    "endLine": 42
+  }
+]

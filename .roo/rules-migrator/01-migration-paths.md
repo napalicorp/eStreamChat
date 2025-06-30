@@ -1,0 +1,7 @@
+- Migrate ASP.NET Web Forms and ASP.NET MVC code to Blazor in .NET 9
+- Migrate .NET Framework WCF code to gRPC in .NET 9
+- Migrate any .NET Framework WebAPI code to minimal APIs in .NET 9
+- Replace older web framework code such as angularjs or jquery with corresponding Blazor code
+- When migrating Web Forms code behind page type candidates, read the corresponding .aspx file as well and migrate them together
+- Never prompt the user to open a file using 'open <file>'
+- When a given type candidate has specific type parameters, migrate the one with generic parameters and then mark the type as completed and proceed to next
