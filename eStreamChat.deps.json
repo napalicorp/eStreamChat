@@ -1,0 +1,302 @@
+{
+  "eStreamChat.MessengerCommand": {
+    "TypeName": "eStreamChat.MessengerCommand",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\MessengerCommand.ashx.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Global",
+      "eStreamChat.Classes.Miscellaneous",
+      "eStreamChat.Interfaces.ChatRequest",
+      "eStreamChat.Interfaces.IMessengerPresenceProvider",
+      "eStreamChat.Interfaces.MessageTypeEnum",
+      "eStreamChat.Interfaces.Message",
+      "eStreamChat.Interfaces.IChatRoomStorage",
+      "eStreamChat.Interfaces.User",
+      "eStreamChat.Interfaces.IChatUserProvider"
+    ]
+  },
+  "eStreamChat.Interfaces.Broadcast": {
+    "TypeName": "eStreamChat.Interfaces.Broadcast",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\Message.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Interfaces.ILogger": {
+    "TypeName": "eStreamChat.Interfaces.ILogger",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\ILogger.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Thumbnail": {
+    "TypeName": "eStreamChat.Thumbnail",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Thumbnail.ashx.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Classes.Miscellaneous": {
+    "TypeName": "eStreamChat.Classes.Miscellaneous",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Classes\\Miscellaneous.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.ChatEngine.SendMessageResult": {
+    "TypeName": "eStreamChat.ChatEngine.SendMessageResult",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\ChatEngine.svc.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Interfaces.IChatUserProvider": {
+    "TypeName": "eStreamChat.Interfaces.IChatUserProvider",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\IUserProvider.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Interfaces.User"
+    ]
+  },
+  "eStreamChat.Interfaces.Message": {
+    "TypeName": "eStreamChat.Interfaces.Message",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\Message.cs",
+    "PackageName": "eStreamChat.Interfaces",
+    "DependsOn": [
+      "eStreamChat.Interfaces.MessageTypeEnum",
+      "eStreamChat.Interfaces.MessageFormatOptions"
+    ]
+  },
+  "eStreamChat.Interfaces.MessageFormatOptions": {
+    "TypeName": "eStreamChat.Interfaces.MessageFormatOptions",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\Message.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Classes.ChatSettings": {
+    "TypeName": "eStreamChat.Classes.ChatSettings",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Classes\\ChatSettings.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Interfaces.IChatSettings",
+      "eStreamChat.Properties.Settings"
+    ]
+  },
+  "eStreamChat.Global": {
+    "TypeName": "eStreamChat.Global",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Global.asax.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Properties.Settings",
+      "eStreamChat.Interfaces.ILogger"
+    ]
+  },
+  "eStreamChat.Interfaces.IChatRoomStorage": {
+    "TypeName": "eStreamChat.Interfaces.IChatRoomStorage",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\IChatRoomStorage.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Interfaces.Message"
+    ]
+  },
+  "eStreamChat.ChatEngine.JoinChatRoomResult": {
+    "TypeName": "eStreamChat.ChatEngine.JoinChatRoomResult",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\ChatEngine.svc.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Interfaces.User"
+    ]
+  },
+  "eStreamChat.ChatEngine": {
+    "TypeName": "eStreamChat.ChatEngine",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\ChatEngine.svc.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.ChatEngine.EventsResult",
+      "eStreamChat.ChatEngine.JoinChatRoomResult",
+      "eStreamChat.ChatEngine.SendMessageResult",
+      "eStreamChat.Global",
+      "eStreamChat.Classes.Miscellaneous",
+      "eStreamChat.Classes.CleanTimedOutUsers",
+      "eStreamChat.Interfaces.ChatRequest",
+      "eStreamChat.Interfaces.IChatSettings",
+      "eStreamChat.Interfaces.IMessengerPresenceProvider",
+      "eStreamChat.Interfaces.MessageTypeEnum",
+      "eStreamChat.Interfaces.MessageFormatOptions",
+      "eStreamChat.Interfaces.Message",
+      "eStreamChat.Interfaces.IChatRoomStorage",
+      "eStreamChat.Interfaces.Room",
+      "eStreamChat.Interfaces.IChatRoomProvider",
+      "eStreamChat.Interfaces.User",
+      "eStreamChat.Interfaces.IChatUserProvider"
+    ]
+  },
+  "eStreamChat.Interfaces.User": {
+    "TypeName": "eStreamChat.Interfaces.User",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\User.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Classes.CleanTimedOutUsers": {
+    "TypeName": "eStreamChat.Classes.CleanTimedOutUsers",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Classes\\Timers.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Classes.Miscellaneous",
+      "eStreamChat.Interfaces.MessageTypeEnum",
+      "eStreamChat.Interfaces.Message",
+      "eStreamChat.Interfaces.IChatRoomStorage",
+      "eStreamChat.Interfaces.IChatUserProvider"
+    ]
+  },
+  "eStreamChat.SendFile": {
+    "TypeName": "eStreamChat.SendFile",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\SendFile.ashx.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Global",
+      "eStreamChat.Classes.Miscellaneous",
+      "eStreamChat.Properties.Settings",
+      "eStreamChat.Interfaces.IChatSettings",
+      "eStreamChat.Interfaces.MessageTypeEnum",
+      "eStreamChat.Interfaces.Message",
+      "eStreamChat.Interfaces.IChatRoomStorage"
+    ]
+  },
+  "eStreamChat.Interfaces.ChatRequest": {
+    "TypeName": "eStreamChat.Interfaces.ChatRequest",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\ChatRequest.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Classes.MemoryMessengerPresenceProvider": {
+    "TypeName": "eStreamChat.Classes.MemoryMessengerPresenceProvider",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Classes\\MemoryMessengerPresenceProvider.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Interfaces.IMessengerPresenceProvider",
+      "eStreamChat.Interfaces.ChatRequest"
+    ]
+  },
+  "eStreamChat.Interfaces.IMessengerPresenceProvider": {
+    "TypeName": "eStreamChat.Interfaces.IMessengerPresenceProvider",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\IMessengerPresenceProvider.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Interfaces.ChatRequest"
+    ]
+  },
+  "eStreamChat.SampleProviders.ChatRoomProvider": {
+    "TypeName": "eStreamChat.SampleProviders.ChatRoomProvider",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.SampleProviders\\ChatRoomProvider.cs",
+    "PackageName": "eStreamChat.SampleProviders",
+    "DependsOn": [
+      "eStreamChat.Interfaces.Room",
+      "eStreamChat.Interfaces.IChatRoomProvider"
+    ]
+  },
+  "eStreamChat.FlashResource": {
+    "TypeName": "eStreamChat.FlashResource",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\FlashResource.ashx.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Global",
+      "eStreamChat.Interfaces.IChatSettings"
+    ]
+  },
+  "eStreamChat.SampleProviders.ChatUserProvider": {
+    "TypeName": "eStreamChat.SampleProviders.ChatUserProvider",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.SampleProviders\\ChatUserProvider.cs",
+    "PackageName": "eStreamChat.SampleProviders",
+    "DependsOn": [
+      "eStreamChat.Interfaces.User",
+      "eStreamChat.Interfaces.IChatUserProvider"
+    ]
+  },
+  "eStreamChat.ChatEngine.EventsResult": {
+    "TypeName": "eStreamChat.ChatEngine.EventsResult",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\ChatEngine.svc.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Interfaces.Message",
+      "eStreamChat.Interfaces.User"
+    ]
+  },
+  "eStreamChat.Classes.MemoryChatRoomStorage": {
+    "TypeName": "eStreamChat.Classes.MemoryChatRoomStorage",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Classes\\MemoryChatRoomStorage.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Interfaces.IChatRoomStorage",
+      "eStreamChat.Interfaces.MessageTypeEnum",
+      "eStreamChat.Interfaces.Message",
+      "eStreamChat.Interfaces.Broadcast"
+    ]
+  },
+  "eStreamChat.Interfaces.ICacheProvider": {
+    "TypeName": "eStreamChat.Interfaces.ICacheProvider",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\ICacheProvider.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Interfaces.MessageTypeEnum": {
+    "TypeName": "eStreamChat.Interfaces.MessageTypeEnum",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\Message.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Classes.RemoteAuthUserProvider": {
+    "TypeName": "eStreamChat.Classes.RemoteAuthUserProvider",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Classes\\RemoteAuthUserProvider.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Classes.Miscellaneous",
+      "eStreamChat.Interfaces.IChatUserProvider",
+      "eStreamChat.Interfaces.ICacheProvider",
+      "eStreamChat.Interfaces.User"
+    ]
+  },
+  "eStreamChat.Interfaces.IChatRoomProvider": {
+    "TypeName": "eStreamChat.Interfaces.IChatRoomProvider",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\IChatRoomProvider.cs",
+    "PackageName": "eStreamChat.Interfaces",
+    "DependsOn": [
+      "eStreamChat.Interfaces.Room"
+    ]
+  },
+  "eStreamChat.Properties.Settings": {
+    "TypeName": "eStreamChat.Properties.Settings",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Properties\\Settings.Designer.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Interfaces.Room": {
+    "TypeName": "eStreamChat.Interfaces.Room",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\Room.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Classes.FileLogger": {
+    "TypeName": "eStreamChat.Classes.FileLogger",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Classes\\Logger.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Interfaces.ILogger"
+    ]
+  },
+  "eStreamChat.ChatRoomPage": {
+    "TypeName": "eStreamChat.ChatRoomPage",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\ChatRoom.aspx.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Interfaces.IChatSettings": {
+    "TypeName": "eStreamChat.Interfaces.IChatSettings",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat.Interfaces\\IChatSettings.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": []
+  },
+  "eStreamChat.Classes.MemoryCacheProvider": {
+    "TypeName": "eStreamChat.Classes.MemoryCacheProvider",
+    "CodeFilePath": "C:\\work\\eStreamChat\\eStreamChat\\Classes\\MemoryCacheProvider.cs",
+    "PackageName": "eStreamChat",
+    "DependsOn": [
+      "eStreamChat.Interfaces.ICacheProvider"
+    ]
+  }
+}
