@@ -1,6 +1,0 @@
-@eStreamChat.Api_HostAddress = http://localhost:5119
-
-GET {{eStreamChat.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
